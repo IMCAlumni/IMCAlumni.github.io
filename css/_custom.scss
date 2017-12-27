@@ -1,6 +1,6 @@
-/* 
-    Created on : Jul 4, 2017, 12:43:10 AM
-    Author     : Atta-Ur-Rehman Shah (http://attacomsian.com)
+﻿/*!
+* Created by Kroplet (https://www.kroplet.com) 
+* The easiest way to create Bootstrap 4 themes. 
 */
 
 /*Google fonts*/
@@ -68,7 +68,7 @@ a.btn:hover,
 a.btn:focus {
     color: #fff;
 }
-.bg-inverse a{
+.bg-dark a{
     color: #fff;
 }
 section{
@@ -209,6 +209,7 @@ section{
 .btn-radius{
     border-radius: 50px;
 }
+
 /*===============================================
 * Borders Utilities
 ================================================*/
@@ -231,6 +232,7 @@ section{
 .border-bottom{
     border-bottom: 1px solid #DEE5E5 !important;
 }
+
 /*social icons*/
 .text-twitter-alt, .text-facebook-alt, .text-linkedin-alt, .text-google-alt, .text-github-alt{
     color:#999;
@@ -250,6 +252,7 @@ section{
 .text-github, .text-github-alt:hover{
     color: #000000;
 }
+
 /*
 Pricing tables
 */
