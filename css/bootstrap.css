@@ -6374,7 +6374,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffb300 !important; }
 
 .hero {
-  height: 150vh;
+  height: 100vh;
   min-height: 600px; }
 
 .hero h1 {
