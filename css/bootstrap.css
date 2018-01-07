@@ -5432,6 +5432,8 @@ a.bg-dark:focus, a.bg-dark:hover {
 .pt-5,
 .py-5 {
   padding-top: 3rem !important; }
+  .pt-51 {
+  padding-top: 0,5rem !important; }
 
 .pr-5,
 .px-5 {
@@ -6372,7 +6374,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffb300 !important; }
 
 .hero {
-  height: 100vh;
+  height: 150vh;
   min-height: 600px; }
 
 .hero h1 {
