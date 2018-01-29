@@ -25,18 +25,10 @@
                     <li class="nav-item mr-3">
                         <a class="nav-link page-scroll" href="#features">Features <span class="sr-only">(current)</span></a>
                     </li>
-                    <!--li class="nav-item mr-3">
-                        <a class="nav-link page-scroll" href="#pricing">Pricing</a>
-                    </li-->
+
                     <li class="nav-item mr-3">
                         <a class="nav-link page-scroll" href="#download">Download</a>
                     </li>
-                    <!--li class="nav-item mr-3">
-                        <a class="nav-link page-scroll" href="#team">Team</a>
-                    </li-->
-                    <!--li class="nav-item mr-3">
-                        <a class="nav-link page-scroll" href="#contact">Contact</a>
-                    </li-->
                 </ul>
             </div>
         </nav>
@@ -60,66 +52,11 @@
                         </p>
                        
                     </div>
-                    <!-- div class="col-sm-6 pt-51 hidden-sm-down wow fadeInRight">
-                        <img class="img-fluid mx-auto d-block" src="img/home_illo.png"/>
-                    </div>
-                    --> 
                 </div>
             </div>
         </section>
 
-       <!--
-        <section class="bg-white" id="features">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-8 mx-auto text-center wow fadeIn">
-                        <h2 class="text-primary">Why Choose Appster?</h2>
-                        <p class="lead">
-                            Appster is more than just a screen capturing app.
-                        </p>
-                    </div>
-                </div>
-                <div class="row d-md-flex mt-4 text-center">
-                    <div class="col-sm-3 mt-2">
-                        <div class="card border-none wow fadeIn">
-                            <div class="card-body">
-                                <i class="material-icons dp36 icon-box">camera_enhance</i>
-                                <h5 class="card-title text-primary pt-5">Capture Anytime</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 mt-2">
-                        <div class="card border-none wow fadeIn">
-                            <div class="card-body">
-                                <i class="material-icons dp36 icon-box">crop</i>
-                                <h5 class="card-title text-primary pt-5">Unlimited Crops</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 mt-2">
-                        <div class="card border-none wow fadeIn">
-                            <div class="card-body">
-                                <i class="material-icons dp36 icon-box">cloud_upload</i>
-                                <h5 class="card-title text-primary pt-5">Upload at Cloud</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 mt-2">
-                        <div class="card border-none wow fadeIn">
-                            <div class="card-body">
-                                <i class="material-icons dp36 icon-box">invert_colors</i>
-                                <h5 class="card-title text-primary pt-5">Beautiful Design</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
--->
+       
         <!--extra features-->
         <section class="bg-dark text-white" id="extra-features">
             <div class="container">
@@ -179,89 +116,7 @@
             </div>
         </section>
 
-        <!--team
-        <section class="bg-white" id="team">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-8 mx-auto text-center">
-                        <h2 class="text-primary">Our Team</h2>
-                        <p class="lead">
-                            We're a team of three people.
-                        </p>
-                    </div>
-                </div>
-                <div class="row d-md-flex mt-4 text-center">
-                    <div class="col-sm-4 mt-2 wow fadeIn">
-                        <div class="card border-none">
-                            <div class="card-body">
-                                <img src="img/team-1.jpg" alt="Male" class="img-team img-fluid rounded-circle"/>
-                                <h5 class="card-title text-primary pt-4">John Deo</h5>
-                                <p class="card-text">App Designer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 mt-2 wow fadeIn">
-                        <div class="card border-none">
-                            <div class="card-body">
-                                <img src="img/team-2.jpg" alt="Male" class="img-team img-fluid rounded-circle"/>
-                                <h5 class="card-title text-primary pt-4">Brandon Lee</h5>
-                                <p class="card-text">Ionic Developer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 mt-2 wow fadeIn">
-                        <div class="card border-none">
-                            <div class="card-body">
-                                <img src="img/team-3.jpg" alt="Male" class="img-team img-fluid rounded-circle"/>
-                                <h5 class="card-title text-primary pt-4">Inza Fererri</h5>
-                                <p class="card-text">Android Developer</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        -->
-        <!--contact
-        <section class="bg-texture-collage p-0" id="contact">
-            <div class="container">
-                <div class="row d-md-flex text-white text-center wow fadeIn">
-                    <div class="col-sm-4 p-5">
-                        <p><em class="material-icons dp36">phone</em></p>
-                        <p class="lead">+49 5456 87595</p>
-                    </div>
-                    <div class="col-sm-4 p-5">
-                        <p><em class="material-icons dp36">email</em></p>
-                        <p class="lead">appster.support@gmail.com</p>
-                    </div>
-                    <div class="col-sm-4 p-5">
-                        <p><em class="material-icons dp36">location_on</em></p>
-                        <p class="lead">Berlin, Germany</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    -->
-        <!--footer
-        <section class="bg-dark pt-5" id="connect">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 offset-md-3 col-sm-8 offset-sm-2 col-xs-12 text-center wow fadeIn">
-                        <h2 class="hero-heading text-muted">Appster</h2>
-                        <p class="mt-4">
-                            <a href="https://twitter.com/" target="_blank"><em class="ion-social-twitter text-twitter-alt icon-sm mr-3"></em></a>
-                            <a href="https://facebook.com/" target="_blank"><em class="ion-social-github text-facebook-alt icon-sm mr-3"></em></a>
-                            <a href="https://www.linkedin.com/" target="_blank"><em class="ion-social-linkedin text-linkedin-alt icon-sm mr-3"></em></a>
-                        </p>
-                        <p class="pt-2 text-muted">
-                            &copy; 2017 Appster Theme. A free Bootstrap 4 theme by 
-                            <a href="https://wireddots.com">Wired Dots</a>. Developed by <a href="https://twitter.com/attacomsian">@attacomsian</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    -->
+       
         
         
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
