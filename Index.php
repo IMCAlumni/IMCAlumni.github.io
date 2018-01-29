@@ -49,7 +49,7 @@
 
       <form method="post" action ="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 
-          username:<br>
+          Username:<br>
           <input type="text" name="Username"  value="<?php echo $Username;?>"><span class="error">*<?php echo $UsernameErr;?></span><br>
 
           Password:<br>
