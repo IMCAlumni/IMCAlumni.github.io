@@ -1,4 +1,14 @@
 <!DOCTYPE html>
+<?php
+session_start();
+if (!isset($_SESSION["ID"])) {
+  header( 'location: index.php');
+}
+
+
+
+
+ ?>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -29,6 +39,7 @@
                     <li class="nav-item mr-3">
                         <a class="nav-link page-scroll" href="#download">Download</a>
                     </li>
+
                 </ul>
             </div>
         </nav>
@@ -40,7 +51,7 @@
                     <div class="col-sm-6 text-white wow fadeIn">
                         <div class="mt-5 pt-5 hidden-sm-down"></div>
                         <h1>IMC Community Online</h1>
-                        <h2>A helpful <span class="text-orange">Online Community</span> app that wil make 
+                        <h2>A helpful <span class="text-orange">Online Community</span> app that wil make
                         networking easy</h2>
                         <p class="mt-4 lead">
                             Download Slack and join the IMC Community
@@ -50,13 +61,17 @@
                            <a href="https://www.microsoft.com/nl-nl/store/p/slack-beta/9nblggh1jj9h" class="mr-3"><img src="img/logo-windows-store.png" class="store-img"/></a>
                             <a href="https://itunes.apple.com/app/slack-app/id618783545?ls=1&mt=8" class="mr-3"><img src="img/apple_store.png" class="store-img"/> </a>
                         </p>
-                       
+
                     </div>
+                    <!-- div class="col-sm-6 pt-51 hidden-sm-down wow fadeInRight">
+                        <img class="img-fluid mx-auto d-block" src="img/home_illo.png"/>
+                    </div>
+                    -->
                 </div>
             </div>
         </section>
 
-       
+
         <!--extra features-->
         <section class="bg-dark text-white" id="extra-features">
             <div class="container">
@@ -116,15 +131,13 @@
             </div>
         </section>
 
-       
-        
-        
+
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
-        <script src="js/scripts.js"></script>   
-        
+        <script src="js/scripts.js"></script>
+
     </body>
 </html>

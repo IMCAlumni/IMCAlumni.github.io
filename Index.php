@@ -13,6 +13,7 @@
 
 
       <?php
+      session_start();
 
       //database info
       $Servername="localhost";
