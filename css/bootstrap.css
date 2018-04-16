@@ -6422,7 +6422,7 @@ section {
 * Background Colors
 ================================================*/
 .bg-texture {
-  background: linear-gradient(-45deg, #f39523 20%, transparent 0%), linear-gradient(-45deg, #53267e 100%, transparent 33%); }
+  background: linear-gradient(-45deg, #EA6B02 30%, transparent 0%), linear-gradient(-45deg, #511559 100%, transparent 33%); }
 
 .bg-texture-collage {
   background: linear-gradient(-45deg, #ffb300 33%, transparent 0%), linear-gradient(-45deg, #512DA8 67%, transparent 33%), linear-gradient(-45deg, #ffb300 100%, transparent 67%); }
@@ -6438,7 +6438,9 @@ section {
 
 .bg-primary {
   background-color: #512DA8 !important; }
-
+.bg-dark-orange {
+  background-color: #EA6B02;
+}
 .bg-orange {
   background-color: #ffb300; }
 
@@ -6463,7 +6465,8 @@ section {
 
 .text-primary {
   color: #512DA8 !important; }
-
+.text-dark-orange {
+  color: #EA6B02 !important; }
 .text-orange {
   color: #f39523 !important; }
 .text-darkblue {
